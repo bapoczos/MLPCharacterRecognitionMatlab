@@ -68,7 +68,7 @@ Xn = min(max(repmat(X,1,numNoise)+randn(35,26*numNoise)*0.2,0),1);
 Tn = repmat(T,1,numNoise);
 
 %%
-% Here is a noise version of A.
+% Here is a noisy version of A.
 
 figure
 plotchar(Xn(:,1))
